@@ -32,12 +32,12 @@ function App() {
   };
 
   return (
-    <div className="bg-slate-700 pb-20 min-h-screen	h-max">
+    <div className="bg-gradient-to-b from-amber-300 to-amber-500 pb-20 min-h-screen	h-max">
       <HeaderApp />
       {/* <WorkFlow /> */}
       <AppTitle />
 
-      <div className="px-5 py-5 mx-5 bg-slate-800/60 rounded-lg h-max">
+      <div className="px-5 py-5 mx-5 bg-slate-800/10 rounded-lg h-max">
         <SearchBarButton
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
