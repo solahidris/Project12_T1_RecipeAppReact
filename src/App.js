@@ -10,10 +10,11 @@ function App() {
   const [recipes, setRecipes] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
+  const apiKey = process.env.REACT_APP_API_KEY;
   const fetchData = async () => {
     try {
       const response = await fetch(
-        `https://api.edamam.com/search?app_id=c8f45999&app_key=b37dbaa88d79e02d2acbed8a4ed353f9&q=${searchTerm}`
+        `https://api.edamam.com/search?app_id=${apiKey}&q=${searchTerm}`
       );
       const data = await response.json();
       setRecipes(data.hits); // Assuming the response contains an array of recipe objects
