@@ -7,7 +7,7 @@ const ListItemSearch = ({ recipes }) => {
         <div key={recipe.recipe.uri}>
           <div>
             <img
-              className="h-30 w-40 rounded-lg"
+              className="h-30 w-40 lg:h-60 lg:w-80 rounded-lg"
               src={recipe.recipe.image}
               alt={recipe.recipe.label}
             />
