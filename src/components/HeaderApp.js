@@ -16,10 +16,13 @@ const HeaderApp = () => {
             </h1>
             <img src={logo} className="h-10 w-10 animate-bounce justify-center" alt="logo" />
           </div>
-          <h1 className="text-center text-xs font-mono text-black pb-10">
+          <h1 className="text-center text-xs font-mono text-black pb-2">
             build a simple recipe app that fetches a list of all recipes from
             external API and provide dynamic search functionality.
           </h1>
+          <p className="text-center text-xs font-mono text-black pb-10 font-bold">
+            ps: only recipe title will be displayed due to API call limit
+          </p>
       </div>
 
       </div>
