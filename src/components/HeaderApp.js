@@ -10,8 +10,8 @@ const HeaderApp = () => {
           <img src={recipeapp} className="mt-10 h-[15rem] w-[15rem] justify-center rounded-2xl" alt="logo" />
         </div>
         <div className="px-10">
-          <div className="flex">
-            <h1 className="pl-10 text-center text-2xl font-mono text-black mb-8 font-bold">
+          <div className="flex justify-center">
+            <h1 className="pl-10 text-center lg:text-3xl text-2xl font-mono text-black mb-8 font-bold">
               Recipe App With React
             </h1>
             <img src={logo} className="h-10 w-10 animate-bounce justify-center" alt="logo" />
